@@ -132,7 +132,7 @@ convert () {
     const selection = editor.getSelectedText()
 
     const figlet = require('figlet')
-    const font = 'o8'
+    const font = 'O8'
     figlet(selection, {font}, function (error, art) {
       if (error) {
         console.error(error)
